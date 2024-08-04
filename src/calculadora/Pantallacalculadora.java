@@ -4,6 +4,7 @@
  */
 package calculadora;
 import java.io.*;
+import java.applet.AudioClip;
 
 /**
  *
@@ -72,6 +73,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_1.setForeground(new java.awt.Color(255, 255, 255));
         btn_1.setLabel("1");
         btn_1.setName(""); // NOI18N
+        btn_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_1MouseClicked(evt);
+            }
+        });
         btn_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_1ActionPerformed(evt);
@@ -84,6 +90,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_2.setForeground(new java.awt.Color(255, 255, 255));
         btn_2.setLabel("2");
         btn_2.setName(""); // NOI18N
+        btn_2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_2MouseClicked(evt);
+            }
+        });
         btn_2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_2ActionPerformed(evt);
@@ -96,6 +107,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_3.setForeground(new java.awt.Color(255, 255, 255));
         btn_3.setLabel("3");
         btn_3.setName(""); // NOI18N
+        btn_3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_3MouseClicked(evt);
+            }
+        });
         btn_3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_3ActionPerformed(evt);
@@ -108,6 +124,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_suma.setForeground(new java.awt.Color(255, 255, 255));
         btn_suma.setLabel("+");
         btn_suma.setName(""); // NOI18N
+        btn_suma.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_sumaMouseClicked(evt);
+            }
+        });
         btn_suma.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_sumaActionPerformed(evt);
@@ -120,6 +141,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_4.setForeground(new java.awt.Color(255, 255, 255));
         btn_4.setLabel("4");
         btn_4.setName(""); // NOI18N
+        btn_4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_4MouseClicked(evt);
+            }
+        });
         btn_4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_4ActionPerformed(evt);
@@ -132,6 +158,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_5.setForeground(new java.awt.Color(255, 255, 255));
         btn_5.setLabel("5");
         btn_5.setName(""); // NOI18N
+        btn_5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_5MouseClicked(evt);
+            }
+        });
         btn_5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_5ActionPerformed(evt);
@@ -144,6 +175,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_6.setForeground(new java.awt.Color(255, 255, 255));
         btn_6.setLabel("6");
         btn_6.setName(""); // NOI18N
+        btn_6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_6MouseClicked(evt);
+            }
+        });
         btn_6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_6ActionPerformed(evt);
@@ -156,6 +192,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_resta.setForeground(new java.awt.Color(255, 255, 255));
         btn_resta.setLabel("-");
         btn_resta.setName(""); // NOI18N
+        btn_resta.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_restaMouseClicked(evt);
+            }
+        });
         btn_resta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_restaActionPerformed(evt);
@@ -168,6 +209,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_7.setForeground(new java.awt.Color(255, 255, 255));
         btn_7.setLabel("7");
         btn_7.setName(""); // NOI18N
+        btn_7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_7MouseClicked(evt);
+            }
+        });
         btn_7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_7ActionPerformed(evt);
@@ -180,6 +226,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_8.setForeground(new java.awt.Color(255, 255, 255));
         btn_8.setLabel("8");
         btn_8.setName(""); // NOI18N
+        btn_8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_8MouseClicked(evt);
+            }
+        });
         btn_8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_8ActionPerformed(evt);
@@ -192,6 +243,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_9.setForeground(new java.awt.Color(255, 255, 255));
         btn_9.setLabel("9");
         btn_9.setName(""); // NOI18N
+        btn_9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_9MouseClicked(evt);
+            }
+        });
         btn_9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_9ActionPerformed(evt);
@@ -204,6 +260,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_multi.setForeground(new java.awt.Color(255, 255, 255));
         btn_multi.setLabel("*");
         btn_multi.setName(""); // NOI18N
+        btn_multi.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_multiMouseClicked(evt);
+            }
+        });
         btn_multi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_multiActionPerformed(evt);
@@ -216,6 +277,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_0.setForeground(new java.awt.Color(255, 255, 255));
         btn_0.setLabel("0");
         btn_0.setName(""); // NOI18N
+        btn_0.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_0MouseClicked(evt);
+            }
+        });
         btn_0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_0ActionPerformed(evt);
@@ -228,6 +294,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_punto.setForeground(new java.awt.Color(255, 255, 255));
         btn_punto.setLabel(".");
         btn_punto.setName(""); // NOI18N
+        btn_punto.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_puntoMouseClicked(evt);
+            }
+        });
         btn_punto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_puntoActionPerformed(evt);
@@ -240,6 +311,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_igual.setForeground(new java.awt.Color(255, 255, 255));
         btn_igual.setLabel("=");
         btn_igual.setName(""); // NOI18N
+        btn_igual.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_igualMouseClicked(evt);
+            }
+        });
         btn_igual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_igualActionPerformed(evt);
@@ -252,6 +328,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         btn_division.setForeground(new java.awt.Color(255, 255, 255));
         btn_division.setLabel("/");
         btn_division.setName(""); // NOI18N
+        btn_division.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_divisionMouseClicked(evt);
+            }
+        });
         btn_division.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_divisionActionPerformed(evt);
@@ -347,6 +428,11 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         jMenu1.add(mitem_nuevo);
 
         mintem_historial.setText("Historial");
+        mintem_historial.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mintem_historialActionPerformed(evt);
+            }
+        });
         jMenu1.add(mintem_historial);
 
         jMenuBar1.add(jMenu1);
@@ -408,8 +494,12 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         }else if(operacion =='/'){
             resultado = num1/num2;
         }
-       
+        
         txt_operacion.setText(String.valueOf(resultado));
+        escribirEnArchivo(txt_operacion.getText());
+        escribirEnArchivo("=");
+        escribirEnArchivo(String.valueOf(resultado));
+        
         
     }//GEN-LAST:event_btn_igualActionPerformed
 
@@ -484,6 +574,113 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         resultado=0;
     }//GEN-LAST:event_mitem_nuevoActionPerformed
 
+    private void mintem_historialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mintem_historialActionPerformed
+         String rutaArchivo = "Bitacoracalculadora.txt"; // Reemplaza con la ruta correcta
+        String comando = "notepad " + rutaArchivo; // Comando para Windows
+
+        try {
+            Runtime.getRuntime().exec(comando);
+           } catch (IOException e) {
+            System.out.println("Error al abrir el Bloc de Notas: " + e.getMessage());
+        }
+    }//GEN-LAST:event_mintem_historialActionPerformed
+
+    private void btn_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_1MouseClicked
+        AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_1MouseClicked
+
+    private void btn_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_2MouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_2MouseClicked
+
+    private void btn_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_3MouseClicked
+        AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_3MouseClicked
+
+    private void btn_sumaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_sumaMouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_sumaMouseClicked
+
+    private void btn_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_4MouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_4MouseClicked
+
+    private void btn_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_5MouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_5MouseClicked
+
+    private void btn_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_6MouseClicked
+        AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_6MouseClicked
+
+    private void btn_restaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_restaMouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_restaMouseClicked
+
+    private void btn_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_7MouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_7MouseClicked
+
+    private void btn_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_8MouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_8MouseClicked
+
+    private void btn_9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_9MouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_9MouseClicked
+
+    private void btn_multiMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_multiMouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_multiMouseClicked
+
+    private void btn_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_0MouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_0MouseClicked
+
+    private void btn_puntoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_puntoMouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_puntoMouseClicked
+
+    private void btn_igualMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_igualMouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_igualMouseClicked
+
+    private void btn_divisionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_divisionMouseClicked
+         AudioClip Sound;
+        Sound = java.applet.Applet.newAudioClip(getClass().getResource("beeep.mp4"));
+        Sound.play();
+    }//GEN-LAST:event_btn_divisionMouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -549,6 +746,7 @@ public class Pantallacalculadora extends javax.swing.JFrame {
         try (FileWriter fw = new FileWriter("Bitacoracalculadora.txt", true);
              BufferedWriter bw = new BufferedWriter(fw)) {
             bw.write(texto);
+            bw.newLine();
         } catch (IOException e) {
             System.out.println("Error al escribir en el archivo: " + e.getMessage());
         }
